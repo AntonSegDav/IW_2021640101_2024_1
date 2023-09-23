@@ -1,0 +1,28 @@
+/* Reseteo de margenes exteriores e interiores configurados por el navegador */
+*{
+    margin: 0;
+    padding: 0;  
+  }
+  
+#wrapper{
+    width: 80%;
+    height: 500px;
+    margin:0 auto;
+    border: 3px solid red;
+    display: flex;
+}
+
+#mosaico{
+    width: 95%;
+    height: 450px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid blue;
+    margin: 10px auto;
+}
+
+#mosaico img{
+    width: 200px;
+    height: 200px;
+    border:1px solid green;
+}
